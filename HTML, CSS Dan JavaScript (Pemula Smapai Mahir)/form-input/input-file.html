@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input File</title>
+    <!--digunakan untuk mengunggah file dari komputer kita-->
+    <!--harus menggunakan methode "post" dan juga enctype "multipart/form-data".  multipart artinya kalau didalam data yang dikirim ada data binari atau data file-->
+</head>
+<body>
+    <form action="receive.html" method="post" enctype="multipart/form-data">
+        <label for="profile">Gambar Profile :</label>
+        <input type="file" name="profile" id="profile"> <br>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
